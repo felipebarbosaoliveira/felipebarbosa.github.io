@@ -62,12 +62,11 @@ div {
     flex-wrap: wrap;
     background-color: transparent;
     margin-bottom: 20px;
-    color: #40cf8e;
-    border: 1px solid #40cf8e;
-    background-color: rgba(64, 207, 143, 0.082);
+    
+    
 }
 
-.atribuicao-um {
+.atribuicoes-um {
     font-weight: 200;
     font-size: 11px;
     color: var(--green);
@@ -75,7 +74,7 @@ div {
     padding: 3px 6px;
     border-radius: 2px;
     background-color: rgba(12, 150, 88, 0.082);
-    border: 1px solid #40cf8e;
+    
    
 
     
@@ -85,6 +84,17 @@ div {
 .atribuicao-um {
     font-weight: 300;
     font-size: 13px;
+}
+
+.atribuicoes-dois {
+    font-weight: 200;
+    font-size: 11px;
+    color: var(--green);
+    border: 1px solid var(--green);
+    padding: 3px 6px;
+    border-radius: 2px;
+    background-color: rgba(12, 150, 88, 0.082);
+    
 }
 
 .botoes {
