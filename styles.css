@@ -104,41 +104,8 @@ div {
     width: 450px;
 }
 
-.github {
-    border-radius: 3px;
-    font-weight: 300;
-    font-size: 15px;
-    transition: all 0.3s ease 0s;
-}
 
-.github div{
-    
-        top: 0px;
-        left: 0px;
-        width: 150px;
-        height: 50px;
-        position: absolute;
-        background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.04), transparent);
-        transition: all 0.1s ease-in 0s;
-    
-}
-
-.github {
-    position: relative;
-    font-weight: 200;
-    font-size: 14px;
-    text-align: center;
-    padding: 16px 12px;
-    letter-spacing: 1px;
-    border-radius: 2px;
-    text-decoration: none;
-    border: 1px solid rgb(45, 45, 45);
-    background-color: rgb(28, 28, 28);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 3px;
-    color: inherit; 
-}
-
-.linkedin {
+.links {
     border-radius: 3px;
     font-weight: 300;
     font-size: 15px;
@@ -146,7 +113,7 @@ div {
     color: inherit;
 }
 
-.linkedin div{
+.links div{
     top: 0px;
         left: 0px;
         width: 150px;
@@ -156,7 +123,7 @@ div {
         transition: all 0.1s ease-in 0s;
 }
 
-.linkedin {
+.links {
     position: relative;
     font-weight: 200;
     font-size: 14px;
@@ -170,71 +137,6 @@ div {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 3px;
 }
 
-.instagram {
-    border-radius: 3px;
-    font-weight: 300;
-    font-size: 15px;
-    transition: all 0.3s ease 0s;
-    color: inherit;
-}
-
-.instagram div {
-    top: 0px;
-        left: 0px;
-        width: 150px;
-        height: 50px;
-        position: absolute;
-        background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.04), transparent);
-        transition: all 0.1s ease-in 0s;
-}
-
-.instagram {
-    position: relative;
-    font-weight: 200;
-    font-size: 14px;
-    text-align: center;
-    padding: 16px 12px;
-    letter-spacing: 1px;
-    border-radius: 2px;
-    text-decoration: none;
-    border: 1px solid rgb(45, 45, 45);
-    background-color: rgb(28, 28, 28);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 3px;
-    color: inherit;
-}
-
-.youtube {
-    border-radius: 3px;
-    font-weight: 300;
-    font-size: 15px;
-    transition: all 0.3s ease 0s;
-    color: inherit;
-}
-
-.youtube div {
-    top: 0px;
-        left: 0px;
-        width: 150px;
-        height: 50px;
-        position: absolute;
-        background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.04), transparent);
-        transition: all 0.1s ease-in 0s;
-}
-
-.youtube {
-    position: relative;
-    font-weight: 200;
-    font-size: 14px;
-    text-align: center;
-    padding: 16px 12px;
-    letter-spacing: 1px;
-    border-radius: 2px;
-    text-decoration: none;
-    border: 1px solid rgb(45, 45, 45);
-    background-color: rgb(28, 28, 28);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 3px;
-    color: inherit;
-}
 
 img {
     overflow-clip-margin: content-box;
@@ -245,3 +147,16 @@ img {
     width: 130px;
     border-radius: 50%;
 }
+
+
+@media screen and (max-width: 480px) {
+    .botoes {
+        width: 300px;
+    }
+  }
+  
+
+html {
+    display: block;
+}
+
