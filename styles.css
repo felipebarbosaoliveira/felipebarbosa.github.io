@@ -149,5 +149,10 @@ img {
 }
 
 
-
-
+@media screen and (max-width: 480px) {
+    body {
+      .botoes {
+        width: 300px;;
+      }
+    }
+  }
